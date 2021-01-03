@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+#menu {
+  background-color: rgb(15, 15, 179);
+  font-size: 25px;
+  height: 35px;
+  width: 100%;
+}
+#title {
+  background-color: rgb(199, 189, 189);
+  color: rgb(116, 114, 114);
+  font-size: 40px;
+  width: 225px;
+}
+#cnt {
+  height: calc(100% - 35px);
+  display: flex;
+}
+#deleteEvth {
+  color: rgb(126, 3, 3);
+  font-size: 22px;
+  display: block;
+}
+#tab {
+  border: 1px solid black;
+  color: rgb(15, 15, 179);
+  width: calc(100% - 225px);
+}
+#tab th {
+  border: 1px solid black;
+  font-size: 20px;
+}
+.Action {
+  color: red;
+}

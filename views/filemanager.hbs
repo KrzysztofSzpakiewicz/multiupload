@@ -1,0 +1,28 @@
+<div id="menu">
+    <a href="/upload">upload</a>
+    <a href="/filemanager">filemanager</a>
+    <a href="/info">info</a>
+</div>
+
+<div id="cnt">
+    <div id="title">
+        <p>Filemanager</p>
+        <a href="/deleteEvth" id="deleteEvth">Usun dane o plikach z tab</a>
+    </div>
+
+    <table id="tab">
+        <tr>
+            <th>id</th>
+            <th>img</th>
+            <th>name</th>
+            <th>size</th>
+            <th>type</th>
+            <th>-</th>
+            <th>-</th>
+            <th>-</th>
+        </tr>
+        {{#each files}}
+        <tr>{{> fileParams}}</tr>
+        {{/each}}
+    </table>
+</div>
